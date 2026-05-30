@@ -1,0 +1,166 @@
+
+
+
+
+#sec-benefit{}
+
+	.co-redcard{}
+
+		.redcard-img{
+			height: 224px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			image-rendering: -webkit-optimize-contrast;
+		}
+		
+		.wr-redcard-content{
+			padding: 0px 16px 32px;
+			background: #B22525;
+		}
+
+			.wr-redcard-subheading{
+				position: relative;
+				margin-bottom: 16px;
+			}
+				.wr-redcard-subheading p,
+				.wr-redcard-subheading h2{
+					padding-top: 22px;
+					padding-left: 80px;
+
+					color: #FFE991;
+					font-size: 14px;
+					font-weight: 700;
+					letter-spacing: 0.25em;
+					text-transform: uppercase;
+				}
+				.deco-redcard-subheading{
+					position: absolute;
+						left: 0px;
+				}
+
+			.wr-redcard-content h2{
+				margin-bottom: 8px;
+				color: #FFE991;
+				font-size: 32px;
+			}
+			.wr-redcard-content > p{
+				color: #F5F5F5;
+				font-size: 16px;
+			}
+
+		.redcard-nav{
+			display: flex;
+			justify-content: flex-end;
+			transform: translateY(-50%);
+		}
+			.wr-redcard-nav-btn{
+				display: flex;
+			}
+				.redcard-nav button{
+					display: block;
+					width: 32px;
+					height: 32px;
+					border: none;
+					background: #B22525;
+				}
+					.redcard-nav button svg{
+						display: block;
+						width: 24px;
+						height: auto;
+						margin: 0px auto;
+					}
+				.redcard-nav-page{
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 200px;
+					padding: 4px 0px;
+					background: #B22525;
+				}
+					.redcard-nav-page svg{
+						display: block;
+						width: 10px;
+						height: 10px;
+						fill: transparent;
+						overflow: visible;
+					}
+						.redcard-nav-page svg circle{
+							stroke: #fff;
+							stroke-width: 20px;
+						}
+					.redcard-nav-page svg:not(:last-child){
+						margin-right: 16px;
+					}
+
+
+
+
+
+/* 	
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+	*	[redcard Component - Tree-structural Pseudo-classes]
+
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+*/
+#sec-benefit .co-redcard:nth-child(1) .redcard-img{
+	background-image: url("../media/img/benefit-1-sm.jpg");
+}
+#sec-benefit .co-redcard:nth-child(2) .redcard-img{
+	background-image: url("../media/img/benefit-2-sm.jpg");
+}
+#sec-benefit .co-redcard:nth-child(3) .redcard-img{
+	background-image: url("../media/img/benefit-3-sm.jpg");
+}
+
+
+
+
+
+/* 	
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+	*	[redcard Subheading Decoration - Tree-structural Pseudo-classes]
+
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+*/
+.deco-redcard-subheading:nth-child(2){
+	height: 32px;
+	top: 0px;
+}
+.deco-redcard-subheading:nth-child(3){
+	bottom: 8px;
+}
+
+
+
+
+
+/* 	
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+	*	[redcard Content Paragraphs - Tree-structural Pseudo-classes]
+
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+*/
+.wr-redcard-content > p:not(:last-child){
+	margin-bottom: 16px;
+}
+
+
+
+
+
+/* 	
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+	*	[Redcard Nav - User Action Pseudo-classes]
+
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+*/
+.redcard-nav-page svg.redcard-nav-current-page circle{
+	fill: #fff;
+	stroke: transparent;
+	stroke-width: 0px;
+}

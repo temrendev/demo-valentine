@@ -1,0 +1,28 @@
+
+
+
+
+#sec-customer{
+	padding: 32px 16px;
+}
+	
+	.wr-customer-heading{
+		margin-bottom: 16px;
+	}
+		.wr-customer-heading > h2{
+			color: #B22525;
+			font-size: 30px;
+		}
+
+		
+
+/* 	
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+	*	[Redcard Component Image - Tree-structural Pseudo-classes]
+
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+*/
+#sec-customer .co-redcard:nth-child(2) .redcard-img{
+	/*background-image: url("../media/img/customer-1.jpg");*/
+}

@@ -1,0 +1,62 @@
+
+
+
+
+.rw{
+}
+	.rw-image{
+		display: block;
+		width: 100%;
+		object-fit: cover;
+		background-color: #EEE;
+		background-image: url('/rv-slider../media/ico-image-loading.svg');
+		background-size: 80px;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.rw-content{}
+		.rw-title{}
+		.rw-description{}
+		.rw-date{}
+
+	.rw-nav{}
+		.rw-nav-page-items{
+		}
+			.rw-page-item{
+				transition: fill 0.2s ease-in;
+			}
+		.rw-nav-buttons{
+		}
+			.rw-nav-btn{
+			}
+			.rw-btn-prev{
+			}
+			.rw-btn-next{}
+
+
+
+
+
+/* 	
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+	*	[RW Page Items - User Action Psuedo-classes]
+
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+*/
+#sec-customer .rw-page-item--active{
+	fill: #FFF;
+}
+
+
+
+
+/* 	
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+	*	[RW Page Items - Tree-structural Pseudo-classes]
+
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+*/
+.rw-page-item:not(:last-child){
+}

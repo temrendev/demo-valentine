@@ -1,0 +1,559 @@
+
+
+
+
+@media screen and (min-width: 320px){}
+@media screen and (min-width: 360px){}
+@media screen and (min-width: 414px){
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Hero Section]
+		
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	#wr-hero-content h1{
+		width: 304px;
+	}
+}
+@media screen and (min-width: 480px){}
+@media screen and (min-width: 512px){
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Benefit Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	.redcard-img{
+		height: 360px;
+	}
+	#sec-service .redcard-img{
+		height: 224px;
+	}
+}
+@media screen and (min-width: 600px){}
+@media screen and (min-width: 768px){
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Hero Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	#sec-hero{
+		height: 100vh;
+		background-image: 
+		linear-gradient(90deg, #2E0A0A 0%, rgba(46, 10, 10, 0.5) 100%),
+		url('../media/img/hero-md.jpg');
+	}
+		#wr-hero-content h1{
+			width: 640px;
+			font-size: 48px;
+		}
+
+		.wr-hero-desc{
+			width: 720px;
+			margin-right: auto;
+		}
+			.wr-hero-desc > p{
+				width: 600px;
+				font-size: 20px;
+			}			
+			.wr-co-step{
+				display: flex;
+				justify-content: space-between;
+			}	
+				.co-step{
+					margin: 0px;
+				}
+					.co-step:not(:last-child){
+						margin-right: 0px;
+					}
+
+			#sec-hero .btn-cta{
+				float: none;
+			}
+
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Redcard Component]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	.co-redcard{
+		display: flex;
+		margin: 0px auto;
+	}
+		#sec-benefit .co-redcard:not(:nth-child(2)){
+			flex-direction: row-reverse;
+		}
+		#sec-customer .co-redcard{
+			flex-direction: row-reverse;
+			width: 640px;
+		}
+		#sec-service .co-redcard{
+			display: block;
+		}
+
+		.wr-redcard-subheading p,
+		.wr-redcard-subheading h2{
+			padding-top: 80px;
+		}
+			.deco-redcard-subheading:nth-child(2){
+				height: calc(100% - 8px);
+			}
+
+		.redcard-img{
+			width: 50%;
+			height: auto;
+		}
+			#sec-service .redcard-img{
+				width: 100%;
+				height: 224px;
+			}
+		.wr-redcard-content{
+			width: 50%;
+			height: 400px;
+			padding: 0px 32px 64px;
+			box-sizing: border-box;
+		}
+			#sec-customer .wr-redcard-content{
+				width: 40%;
+				height: 500px;
+				padding: 0px 50px 64px;
+			}
+			#sec-service .wr-redcard-content{
+				width: auto;
+				height: 320px;
+				padding: 0px 16px 16px;
+			}
+			#sec-customer .redcard-img{
+				width: 60%;
+			}
+		.redcard-nav{
+			width: 640px;
+			margin: 0px auto;
+		}
+			.wr-redcard-nav-btn{
+			}
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Customer Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	#sec-customer{
+		padding: 0px 0px 32px;
+	}
+		.wr-customer-heading{
+			display: flex;
+			justify-content: center;
+		}
+			.wr-customer-heading h2{
+				order: 2;
+				padding: 32px 0px 0px;
+				margin: 0px 32px;
+				text-align: center;
+			}
+				.wr-customer-heading span{
+					display: block;
+					width: 130px;
+					height: 72px;
+					background-repeat: no-repeat;
+					background-position: 0px -10px;
+				}
+					.wr-customer-heading span:first-of-type{
+						order: 1;
+						background-image: url("../media/svg/deco-section-heading-left-md.svg");
+					}
+
+					.wr-customer-heading span:last-of-type{
+						order: 3;
+						background-image: url("../media/svg/deco-section-heading-right-md.svg");
+					}
+
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[CTA Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	#sec-cta{
+		padding: 32px;
+	}
+		#sec-cta > h2{
+			text-align: center;
+		}
+		#sec-cta > p{
+			width: 500px;
+			margin: 0px auto;
+			text-align: center;
+		}
+
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Footer Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	.wr-footer-cols{
+		display: flex;
+		padding: 0px 0px 0px 32px;
+	}
+		footer .col:not(:last-child){
+			margin-right: 64px;
+		}
+}
+@media screen and (min-width: 960px){
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Hero Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	#wr-hero-content h1{
+		width: 640px;
+		font-size: 48px;
+		padding: 20px 20px 20px 64px;
+	}
+
+	.wr-hero-desc{
+		width: 800px;
+		padding-left: 32px;
+		margin-left: 64px;
+	}
+		.co-step:not(:last-child){
+			margin-right: 32px;
+		}
+
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[CTA Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	#sec-cta{
+
+	}
+		#sec-cta .wr-co-step{
+			justify-content: space-between;
+			width: 850px;
+			margin: 32px auto;
+		}
+		#sec-cta .co-step{
+			margin: 0px;
+		}
+}
+@media screen and (min-width: 1024px){
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Header Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	header{
+		padding: 32px 64px;
+		/*background-color: rgba(46, 10, 10, 0.7);*/
+	}
+		.logo{
+			width: 155px;
+			height: 33px;
+			background-image: url("../media/img/logo-md.png");
+		}
+		header nav{
+			display: block;
+		}
+		#btn-menu{
+			display: none;
+		}
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Hero Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	#sec-hero{
+		background-image: 
+			linear-gradient(90deg, #2E0A0A 0%, rgba(46, 10, 10, 0.5) 100%),
+			url('../media/img/hero-lg.jpg');		
+	}
+		#wr-hero-content{
+			margin-top: 111px;
+		}
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Benefit Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	#sec-customer .co-redcard{
+		flex-direction: row-reverse;
+		width: 912px;
+	}
+		.wr-redcard-content{
+			padding: 0px 96px 64px;
+		}
+		.redcard-nav{
+			width: 912px;
+		}
+
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Customer Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Footer Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	.wr-footer-cols{
+		padding: 0px 0px 0px 64px;
+		justify-content: flex-start;
+	}
+	footer .col:not(:last-child){
+		margin-right: 80px;
+	}
+}
+@media screen and (min-width: 1200px){
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Benefit Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	.wr-redcard-content{
+		padding: 0px 128px 64px;
+	}
+
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Customer Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	.wr-customer-heading{
+		background-position: 128px -16px, right 128px top -16px;
+	}
+		.wr-customer-heading span{
+			width: 258px;
+		}
+			.wr-customer-heading span:first-of-type{
+				background-image: url("../media/svg/deco-section-heading-left-lg.svg");
+			}
+			.wr-customer-heading span:last-of-type{
+				background-image: url("../media/svg/deco-section-heading-right-lg.svg");
+			}
+
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Footer Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	.wr-footer-cols{
+		padding: 0px 0px 0px 144px;
+	}
+	.wr-footer-logo{
+		right: 144px;
+	}
+}
+@media screen and (min-width: 1366px){
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Header Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	header{
+		padding: 32px 128px;
+	}
+
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Hero Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	#sec-hero h1{
+		padding-left: 128px;
+	}
+	.wr-hero-desc{
+		padding-top: 28px;
+		padding-left: 40px;
+		margin-left: 128px;
+	}
+
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Customer Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	.wr-customer-heading{
+		background-position: 160px -16px, right 160px top -16px;
+	}
+
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Footer Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	.wr-footer-cols{
+		padding: 0px 0px 0px 200px;
+	}
+	.wr-footer-logo{
+		right: 200px;
+	}
+}
+@media screen and (min-width: 1440px){
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Benefit Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	.wr-redcard-content{
+		padding: 0px 144px 64px;
+	}
+}
+@media screen and (min-width: 1600px){
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Hero Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	#sec-hero{
+		background-image: 
+			linear-gradient(90deg, #2E0A0A 0%, rgba(46, 10, 10, 0.5) 100%),
+			url('../media/img/hero-xl.jpg');		
+	}
+
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Benefit Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	.wr-redcard-content{
+		padding: 0px 200px 64px;
+	}
+
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Customer Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	.wr-customer-heading{
+		background-position: 304px -16px, right 304px top -16px;
+	}
+}
+@media screen and (min-width: 1800px){
+
+
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Customer Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	.wr-customer-heading{
+		background-position: 384px -16px, right 384px top -16px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-height: 600px){
+
+	/* 	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+		*	[Hero Section]
+	
+		+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	*/
+	#sec-hero{
+		height: 640px;
+	}
+}

@@ -1,0 +1,32 @@
+
+
+
+
+#sec-cta{
+	padding: 32px 16px;
+	background: #8C1D1D;
+}
+	
+	#sec-cta > h2{
+		margin-bottom: 16px;
+		color: #FFE991;
+		font-size: 32px;
+	}
+
+	#sec-cta > p{
+		margin-bottom: 32px;
+		color: #f5f5f5;
+		font-size: 16px;
+	}
+
+	#sec-cta .co-step{
+		margin: 24px auto;
+	}
+	#sec-cta .step-icon{
+		background-color: #8C1D1D;
+	}
+
+	#sec-cta .btn-cta{
+		display: block;
+		margin: 0px auto;
+	}

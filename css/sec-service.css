@@ -1,0 +1,121 @@
+
+
+
+
+#sec-service{
+	/*display: flex;*/
+	padding: 32px 16px;
+	overflow-x: scroll;
+}
+	#sec-service > h2{
+		font-size: 32px;
+		color: #B22525;
+		text-align: center;
+		margin-bottom: 32px;
+	}
+
+	#sec-service .co-redcard{
+		flex-shrink: 0;
+		width: 288px;
+		margin: 0px auto;
+		box-shadow: 0px 4px 30px 0px rgba(0,0,0,0.17);
+	}
+
+		#sec-service .wr-redcard-content{
+			height: 256px;
+			background: #FFF;
+		}
+
+		#sec-service .wr-redcard-content h2{
+			color: #B22525;
+		}
+
+		#sec-service .wr-redcard-subheading p{
+			color: #B22525;
+		}
+
+		#sec-service .deco-redcard-subheading line{
+			stroke: #B22525;
+		}
+
+		#sec-service .wr-redcard-content > p{
+			color: #2E0A0A;
+		}
+
+
+
+
+
+/* 	
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+	*	[Services Redcard - Tree-sturctural Psuedo-classes]
+
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+*/
+#sec-service .co-redcard:not(:last-child){
+	margin-right: 32px;
+}
+#sec-service .co-redcard:nth-child(1) .redcard-img{
+	background-image: url("../media/img/service-1.jpg");
+}
+#sec-service .co-redcard:nth-child(2) .redcard-img{
+	background-image: url("../media/img/service-2.jpg");
+}
+#sec-service .co-redcard:nth-child(3) .redcard-img{
+	background-image: url("../media/img/service-3.jpg");
+}
+#sec-service .co-redcard:nth-child(4) .redcard-img{
+	background-image: url("../media/img/service-4.jpg");
+}
+#sec-service .co-redcard:nth-child(5) .redcard-img{
+	background-image: url("../media/img/service-5.jpg");
+}
+#sec-service .co-redcard:nth-child(6) .redcard-img{
+	background-image: url("../media/img/service-6.jpg");
+}
+
+
+
+
+
+
+/* 	
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+	*	[Services Redcard For Owl Carousel - Tree-sturctural Psuedo-classes]
+
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+*/
+#sec-service.owl-carousel{
+	display: block;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+#sec-service .owl-carousel{
+	overflow: hidden;
+}
+#sec-service .owl-stage-outer{
+	overflow: visible;
+}
+#sec-service .owl-item{
+	margin-right: 32px;
+}
+#sec-service .owl-item:nth-child(1) .co-redcard .redcard-img{
+	background-image: url("../media/img/service-1.jpg");
+}
+#sec-service .owl-item:nth-child(2) .co-redcard .redcard-img{
+	background-image: url("../media/img/service-2.jpg");
+}
+#sec-service .owl-item:nth-child(3) .co-redcard .redcard-img{
+	background-image: url("../media/img/service-3.jpg");
+}
+#sec-service .owl-item:nth-child(4) .co-redcard .redcard-img{
+	background-image: url("../media/img/service-4.jpg");
+}
+#sec-service .owl-item:nth-child(5) .co-redcard .redcard-img{
+	background-image: url("../media/img/service-5.jpg");
+}
+#sec-service .owl-item:nth-child(6) .co-redcard .redcard-img{
+	background-image: url("../media/img/service-6.jpg");
+}

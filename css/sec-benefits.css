@@ -1,0 +1,65 @@
+
+
+#sec-benefits{}
+
+	.co-benefit{
+	}
+
+		.wr-benefit-img{
+			width: 320px;
+			height: 224px;
+
+			background-image: url('../media/img/benefit-sprite.jpg');
+			background-repeat: no-repeat;
+			background-size: auto;
+			background-position: 0px 0px;
+		}
+
+		.wr-benefit-content{
+			height: 244px;
+			padding: 0px 16px;
+			overflow: hidden;
+			background-color: #B22525	;
+		}
+
+			.wr-benefit-subheading,
+			.wr-benefit-content > h2{
+				color: #FFE991;
+			}
+
+			.wr-benefit-subheading{
+				position: relative;
+					padding: 20px 0px 16px 80px;
+			}
+
+				.wr-benefit-subheading > p{
+					font-size: 16px;
+					font-weight: 700;
+					letter-spacing: 0.25em;
+				}
+
+				.deco-benefit-subheading{
+					position: absolute;
+						top: 0px;
+						left: 0px;
+				}
+
+			.wr-benefit-content > p{
+				color: #F5F5F5;
+				font-size: 16px;
+			}
+
+
+
+
+
+/*
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+	
+	*	[Benefit Content Paragraph - Tree-structural Pseudo-classes]
+
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+*/
+.wr-benefit-conten > p:not(:last-child){
+	margin-bottom: 16px;
+}

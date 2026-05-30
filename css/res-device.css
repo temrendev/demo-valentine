@@ -1,0 +1,73 @@
+/*
+	*	Iphone 3/4/3GS
+*/
+@media screen and (min-width: 320px) and (min-height: 480px){}
+
+/*
+	*	Galaxy S/2/3mini
+*/
+@media screen and (min-width: 320px) and (min-height: 533px){}
+
+/*
+	*	Iphone 5/5c/5s
+*/
+@media screen and (min-width: 320px) and (min-height: 568px){}
+
+/*
+	*	Galaxy Nexus
+*/
+@media screen and (min-width: 360px) and (min-height: 600px){}
+
+/*
+	*	Galaxy Note 2/3/4
+	*	Galaxy S3/4/4mini/5/6/7/7edge
+*/
+@media screen and (min-width: 360px) and (min-height: 640px){}
+
+/*
+	*	Galaxy Note 8/9/10/10+
+	*	Galaxy S8/8+/9/9+/10/10+
+*/
+@media screen and (min-width: 360px) and (min-height: 740px){}
+
+/*
+	*	Iphone 12 Mini
+	*	Redmi Note 7/8/8pro/9
+*/
+@media screen and (min-width: 360px) and (min-height: 780px){}
+
+/*
+	*	Galaxy S10 Lite
+	*	Redmi Note 9 Pro
+*/
+@media screen and (min-width: 360px) and (min-height: 800px){}
+
+/*
+	*	Iphone 6/6s/7/8
+*/
+@media screen and (min-width: 375px) and (min-height: 667px){}
+
+/*
+	*	Iphone X/Xs/11pro
+*/
+@media screen and (min-width: 375px) and (min-height: 812px){}
+
+/*
+	*	Iphone 12/12pro
+*/
+@media screen and (min-width: 390px) and (min-height: 844px){}
+
+/*
+	*	Iphone 6+/6s+/7+/8+
+*/
+@media screen and (min-width: 414px) and (min-height: 736px){}
+
+/*
+	*	Iphone 11 Pro Max/XS Max
+*/
+@media screen and (min-width: 414px) and (min-height: 896px){}
+
+/*
+	*	Galaxy S20/20+/20ultra
+*/
+@media screen and (min-width: 480px) and (min-height: 1067px){}

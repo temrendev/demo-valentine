@@ -1,0 +1,47 @@
+
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+body{
+	font-family: "Merriweather";
+}
+
+	body > section,
+	footer{
+		position: relative;
+	}
+
+
+
+button,
+input[type="submit"]{
+	font-family: "Merriweather";
+	cursor: pointer;
+}
+
+
+.clearfix::after{
+	display: block;
+	width: 100%;
+	clear: both;
+	content: "";
+}
+
+
+
+
+.url-fragment{
+	position: absolute;
+		top: -144px;
+		left: 0px;
+		width: 0px;
+		height: 0px;
+		visibility: hidden;
+}

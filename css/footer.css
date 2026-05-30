@@ -1,0 +1,70 @@
+
+
+
+footer{
+	position: relative;
+	padding: 0px 0px 176px 0px;
+	background: #2E0A0A;
+}
+	.wr-footer-cols{
+		padding: 0px 16px;
+	}
+	
+		footer .col{}
+
+			footer .col > p{
+				color: #F5F5F5;
+				font-size: 16px;
+			}
+
+			footer .col ul{
+				list-style: none;
+			}
+
+				footer .col li{}
+					footer .col li a{
+						color: #FFE991;
+						font-weight: 300;
+						text-decoration: none;
+					}
+
+	.wr-footer-logo{
+		position: absolute;
+			bottom: 0px;
+			right: 32px;
+		height: 128px;
+	}
+		#footer-logo{
+			width: 231px;
+			height: 60px;
+			margin-right: 24px;
+			background-image: url("../media/img/logo-lg.png");
+			background-repeat: no-repeat;
+		}
+		.wr-footer-logo .deco-redcard-subheading{
+			height: 100%;
+			left: unset;
+			right: 0px;
+		}
+
+
+
+
+
+/* 	
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+	*	[Footer CoL - Tree-structural Pseudo-classes]
+
+	+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+*/
+footer .col:not(:last-child){
+	margin-bottom: 32px;
+}
+	footer .col > p:not(:last-of-type){
+		margin-bottom: 8px;
+	}
+
+		footer .col li:not(:last-child){
+			margin-bottom: 16px;
+		}
